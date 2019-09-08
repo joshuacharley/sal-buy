@@ -1,5 +1,5 @@
-const SHOP_DATA =  [
-    {
+const SHOP_DATA =  {
+  mobilephones: {
       id: 1,
       title: 'MobilePhones',
       routeName: 'mobilephones',
@@ -60,12 +60,12 @@ const SHOP_DATA =  [
         }
       ]
     },
-    {
-      id: 2,
+    electronicsgadjects: {
+       id: 2,
       title: 'ELECTRONICS GADJETS',
-      routeName: 'electronicgadjetcs',
+      routeName: 'electronicsgadjects',
       items: [
-        {
+         {
           id: 10,
           name: 'Fitness Electronics Watch',
           imageUrl: 'https://i.ibb.co/jZDdBpZ/162719.jpg',
@@ -115,8 +115,8 @@ const SHOP_DATA =  [
         }
       ]
     },
-    {
-      id: 3,
+    computers: {
+       id: 3,
       title: 'COMPUTERS',
       routeName: 'computers',
       items: [
@@ -152,8 +152,8 @@ const SHOP_DATA =  [
         }
       ]
     },
-    {
-      id: 4,
+    homeappliances: {
+       id: 4,
       title: 'HOME APPLIANCES',
       routeName: 'homeappliances',
       items: [
@@ -201,9 +201,9 @@ const SHOP_DATA =  [
         }
       ]
     },
-    {
+    tv: {
       id: 5,
-      title: 'TV',
+       title: 'TV',
       routeName: 'tvs',
       items: [
         {
@@ -244,7 +244,7 @@ const SHOP_DATA =  [
         }
       ]
     }
-  ];
+};
   
   export default SHOP_DATA;
   
